@@ -585,4 +585,9 @@ form button:hover {
   form {
     width: 80%;
   }
+
+  .final-p {
+    font-size: 14px;
+  }
 }
+
