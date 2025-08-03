@@ -1,0 +1,588 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-RegularDEMO.otf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-Regular.ttf");
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+/* Heading that contains logo and Mail */
+.first {
+  background-color: #f6ebe0;
+  padding: 0 8% 5% 8%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 50%;
+}
+
+.header-mail {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+}
+
+.header-mail a {
+  text-decoration: none;
+  color: #f0764d;
+}
+
+.header-mail a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/*  Header Explanation */
+.header-exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.low-font-p {
+  font-variant: small-caps;
+  color: #f0764d;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header-exp-one h2 {
+  font-size: 2.8rem;
+  font-family: "Recoleta";
+  line-height: 1.5;
+  color: #0f5b4c;
+}
+
+.low-font-ptwo {
+  font-family: "Poppins";
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.header-exp-one button {
+  height: 5rem;
+  background-color: #f0764d;
+  color: #fff;
+  border: 0;
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: all 300ms ease-in-out;
+  font-family: "Recoleta";
+}
+
+.header-exp-one button:hover {
+  background-color: #fff;
+  color: #f0764d;
+  font-weight: bold;
+  border: 1px solid #f0764d;
+}
+
+/* How to get us */
+.second {
+  padding: 2% 8% 2% 8%;
+}
+
+.reach-us {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 8% 0;
+}
+
+.reach-us img {
+  display: block;
+  margin: 0 auto;
+  background-color: #f0764d;
+  padding: 20px;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.reach-us h2 {
+  font-family: "Recoleta";
+  color: #0f5b4c;
+  font-size: 2rem;
+}
+
+.reach-us p {
+  font-family: "Poppins";
+  line-height: 1.5;
+  color: grey;
+  font-size: 18px;
+}
+
+.reach-us a {
+  color: grey;
+  text-decoration: none;
+}
+
+.reach-us a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.find-us,
+.time,
+.reservation {
+  text-align: center;
+}
+
+/* Our Story */
+.third {
+  padding: 1% 8% 5% 8%;
+  background-color: #e6f0fa;
+}
+
+.our-story-one {
+  text-align: center;
+}
+
+.our-story-p {
+  font-variant: small-caps;
+  color: #f0764d;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.our-story-one h2 {
+  font-family: "Recoleta";
+  color: #0f5b4c;
+  font-size: 2.8rem;
+}
+
+.our-story-ptwo {
+  font-family: "Poppins";
+  line-height: 1.5;
+  color: grey;
+  font-size: 18px;
+}
+
+.first-social,
+.middle-social {
+  margin: 0 auto;
+}
+
+.middle-social {
+  margin: 0 20px;
+}
+
+.social-photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% auto;
+}
+
+.social-dsg {
+  background-color: #0f5b4c;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.social-dsg a {
+  text-decoration: none;
+}
+
+.social-img {
+  width: 15%;
+}
+
+.social-p-one {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Recoleta";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.social-p-two {
+  color: #f0764d;
+  font-family: "Recoleta";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Our Delicacies */
+.fourth {
+  padding: 5% 8% 5% 8%;
+}
+
+.del-exp-one {
+  text-align: center;
+}
+
+.del-exp-one p {
+  font-variant: small-caps;
+  color: #f0764d;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.del-exp-one h2 {
+  font-family: "Recoleta";
+  color: #0f5b4c;
+  font-size: 2.8rem;
+}
+
+.del-exp-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.del-exp-two h2 {
+  font-family: "Recoleta";
+  color: #0f5b4c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.meal-p {
+  font-family: "Poppins";
+  line-height: 1.5;
+  color: grey;
+  font-size: 14px;
+}
+
+.meal-left-one,
+.meal-left-two,
+.meal-right-one,
+.meal-right-two {
+  background-color: #fff0e6;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 8%;
+}
+
+.meal-left-two,
+.meal-right-two {
+  margin: 40px;
+}
+
+.meal-left-one,
+.meal-right-one {
+  margin: 0 40px 0 40px;
+}
+
+.price {
+  font-family: "Recoleta";
+  color: #fff;
+  background-color: #0f5b4c;
+  display: inline;
+  line-height: 4;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* About Us */
+.fifth {
+  padding: 5% 8%;
+  background-color: #e6f0fa;
+}
+
+.about-us-exp-one {
+  text-align: center;
+}
+
+.about-us-exp-one p {
+  font-variant: small-caps;
+  color: #f0764d;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about-us-exp-one h2 {
+  font-family: "Recoleta";
+  color: #0f5b4c;
+  font-size: 2.8rem;
+}
+
+.about-us-exp-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.about-one {
+  color: #f0764d;
+  font-size: 3rem;
+}
+
+.about-two {
+  color: #0f5b4c;
+  font-family: "Recoleta";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-p-one {
+  font-family: "Lato-Regular";
+  color: #0f5b4c;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-p-two {
+  font-family: "Poppins";
+  color: grey;
+  font-size: 18px;
+}
+
+/* More About Us */
+.sixth {
+  background-color: #fff;
+  padding: 5% 8%;
+}
+
+.more-abt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.more-abt img {
+  width: 20%;
+  margin: 0 30px;
+  background-color: #f0764d;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.more-abt h2 {
+  color: #0f5b4c;
+  font-family: "Recoleta";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.more-abt-one,
+.more-abt-two,
+.more-abt-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Book With Us */
+.seventh {
+  background-color: #0f5b4c;
+  padding: 5% 8%;
+}
+
+.book-us-one {
+  text-align: center;
+}
+
+.book-us-one h2 {
+  font-family: "Recoleta";
+  color: #fff;
+  font-size: 2.8rem;
+}
+
+.book-call {
+  color: lightgray;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+.book-p {
+  font-variant: small-caps;
+  color: #f0764d;
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  height: 2.8rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin: 15px 0;
+  padding-left: 20px;
+  color: #fff;
+}
+
+input:hover {
+  border: 1px solid #fff;
+}
+
+input:focus {
+  border: 1px solid #fff;
+}
+
+textarea {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+textarea::placeholder {
+  padding: 20px;
+  color: lightgrey;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+form button {
+  height: 5rem;
+  background-color: #f0764d;
+  color: #fff;
+  border: 0;
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: all 300ms ease-in-out;
+  font-family: "Recoleta";
+  display: block;
+  margin: 0 auto;
+}
+
+form button:hover {
+  background-color: #fff;
+  color: #f0764d;
+  font-weight: bold;
+  border: 1px solid #f0764d;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.final-p {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.footer img {
+  width: 45%;
+  margin: 0 15px;
+  background-color: #f0764d;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .header-mail a {
+    display: none;
+  }
+
+  .header-logo img {
+    width: 40%;
+  }
+
+  .header-exp {
+    flex-direction: column;
+  }
+
+  .header-exp-one {
+    order: 2;
+  }
+
+  .reach-us {
+    flex-direction: column;
+  }
+
+  .reach-us img {
+    width: 8%;
+  }
+
+  .social-photo {
+    flex-direction: column;
+  }
+
+  .social-photo img {
+    width: 100%;
+  }
+
+  .our-story-one br {
+    display: none;
+  }
+
+  .del-exp-two {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .fourth {
+    padding: 0;
+  }
+
+  .fourth br {
+    display: none;
+  }
+
+  .about-us-exp-two {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-us-exp-two br {
+    display: none;
+  }
+
+  .about-us img {
+    width: 100%;
+  }
+
+  .more-abt {
+    flex-direction: column;
+  }
+
+  .more-abt img {
+    width: 10%;
+  }
+
+  form {
+    width: 80%;
+  }
+}
