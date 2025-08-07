@@ -518,6 +518,10 @@ form button:hover {
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 87.5%; /* 14px equivalent */
+  }
+
   .header-mail a {
     display: none;
   }
@@ -598,3 +602,4 @@ form button:hover {
     font-size: 14px;
   }
 }
+
