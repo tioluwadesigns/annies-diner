@@ -57,10 +57,14 @@ body {
 
 /*  Header Explanation */
 .header-exp {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 5%;
+}
+
+.header-exp-two {
+  display: block;
+  text-align: right;
 }
 
 .low-font-p {
@@ -523,15 +527,15 @@ form button:hover {
   }
 
   .header-exp {
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .header-exp-one {
-    order: 2;
+    order: 1;
   }
 
   .header-exp-two {
-    width: 100%;
+    display: none;
   }
 
   .reach-us {
